@@ -1,7 +1,5 @@
 import java.util.Scanner;
-
 public class main {
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int size=sc.nextInt();
@@ -14,7 +12,5 @@ public class main {
 	if(arr[i]==key)
 	System.out.print("Position of "+key+" is:"+(i+1));
 		}
-
 	}
-
 }
