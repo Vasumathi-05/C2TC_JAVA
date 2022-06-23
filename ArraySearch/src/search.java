@@ -1,6 +1,5 @@
 import java.util.Scanner;
 public class search {
-
 	public static void main(String[] args) {
 	int n,x,flag=0,i;
 	System.out.print("Enter the number of elements:");
