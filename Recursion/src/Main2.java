@@ -1,21 +1,20 @@
 import java.util.Scanner;
 
 public class Main2 {
-	static int dc(int n)
+	public static void print_digits(int n)
 	{
 		if(n<=9)
 		{
-			return n;
+			System.out.println(n);
+			return;
 		}
-		else
-		{
-			return n/10;
+		print_digits(n/10);
+		System.out.println(n%10);
 		}
-	}
 		public static void main(String[] args) {
 			Scanner s=new Scanner(System.in);
 			int n=s.nextInt();
-			System.out.println(dc(n));
+			print_digits(n);
 		
 	}
 
